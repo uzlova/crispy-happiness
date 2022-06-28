@@ -16,9 +16,8 @@ def main():
     sale = soup.find_all('div', attrs={'class': 'col search_discount responsive_secondrow'})
 
     for i, j in zip(all_games, sale):
-        # print(f"{i.text} - {j.text.strip()}")
         discount = j.text.strip()
-        if discount == '-99%':
+        if discount == '-100%':
             print(f"Сегодня на раздаче {i.text}!")
 
 
