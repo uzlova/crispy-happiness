@@ -5,7 +5,7 @@ from steam_parser import pars
 from aiogram import Bot, Dispatcher, executor, types
 import logging
 
-API_TOKEN = '5540466444:AAFj8xqwMskrhj71IsZ4mQV6ck0U6bDpI1c'
+API_TOKEN = 'token from @BotFather'
 
 bot = Bot(token=API_TOKEN, parse_mode="html")
 dp = Dispatcher(bot)
